@@ -1,0 +1,2 @@
+# Omono
+Monorepo for components
