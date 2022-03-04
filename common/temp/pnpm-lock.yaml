@@ -1,0 +1,15 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@rush-temp/app-cli': file:./projects/app-cli.tgz
+
+dependencies:
+  '@rush-temp/app-cli': file:projects/app-cli.tgz
+
+packages:
+
+  file:projects/app-cli.tgz:
+    resolution: {integrity: sha512-di1ywnh3qFOgoP1QtkQrCevWKSo57ZbBQuTLkwsD7D58ntGjT0QUrUEuSH/U8ReTHwKPCN0cfBnjM9kSjJVoLw==, tarball: file:projects/app-cli.tgz}
+    name: '@rush-temp/app-cli'
+    version: 0.0.0
+    dev: false
