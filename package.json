@@ -1,0 +1,19 @@
+{
+  "name": "omono",
+  "version": "1.0.0",
+  "description": "Monorepo for components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://MpossibleCHAn@github.com/MpossibleCHAn/Omono.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MpossibleCHAn/Omono/issues"
+  },
+  "homepage": "https://github.com/MpossibleCHAn/Omono#readme"
+}
