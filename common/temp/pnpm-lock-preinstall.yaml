@@ -1,0 +1,70 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@rush-temp/app': file:./projects/app.tgz
+  '@rush-temp/app-cli': file:./projects/app-cli.tgz
+  react: 17.0.0
+  typescript: ~4.6.2
+
+dependencies:
+  '@rush-temp/app': file:projects/app.tgz
+  '@rush-temp/app-cli': file:projects/app-cli.tgz
+  react: 17.0.0
+  typescript: 4.6.2
+
+packages:
+
+  /js-tokens/4.0.0:
+    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
+    dev: false
+
+  /loose-envify/1.4.0:
+    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
+    hasBin: true
+    dependencies:
+      js-tokens: 4.0.0
+    dev: false
+
+  /object-assign/4.1.1:
+    resolution: {integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /react/17.0.0:
+    resolution: {integrity: sha512-rG9bqS3LMuetoSUKHN8G3fMNuQOePKDThK6+2yXFWtoeTDLVNh/QCaxT+Jr+rNf4lwNXpx+atdn3Aa0oi8/6eQ==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+    dev: false
+
+  /react/17.0.2:
+    resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+    dev: false
+
+  /typescript/4.6.2:
+    resolution: {integrity: sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
+
+  file:projects/app-cli.tgz:
+    resolution: {integrity: sha512-A5RQhJtvf8lb6r0OvQJCC9b9gTWXNf8NrmetHQUUoMH6vc/2U+WN6q8TAKkAX0PlVhmJThknDDevOshGxapHVw==, tarball: file:projects/app-cli.tgz}
+    name: '@rush-temp/app-cli'
+    version: 0.0.0
+    dependencies:
+      typescript: 4.6.2
+    dev: false
+
+  file:projects/app.tgz:
+    resolution: {integrity: sha512-LUfAnX/vXmairHJenQyXQ/SzBNtoF4faP+RUIrfpwgaSKhvGiVVpBwmT38RcOuYbebIEGeWN31hwGzyNgQ7WcA==, tarball: file:projects/app.tgz}
+    name: '@rush-temp/app'
+    version: 0.0.0
+    dependencies:
+      react: 17.0.2
+      typescript: 4.6.2
+    dev: false

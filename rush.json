@@ -392,6 +392,10 @@
     {
       "packageName": "app-cli",
       "projectFolder": "apps/app-cli"
+    },
+    {
+      "packageName": "app",
+      "projectFolder": "apps/app"
     }
     // {
     //   /**
